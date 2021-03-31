@@ -27,6 +27,7 @@ namespace J.ConsoleApp
 			}
 
 			Console.WriteLine("Benchmarking finished.");
+			Console.ReadLine();
 		}
 
 		private static List<object> GetSampleObjects()
