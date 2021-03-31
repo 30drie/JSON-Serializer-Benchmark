@@ -10,13 +10,20 @@ namespace J.ConsoleApp
 		static void Main(string[] args)
 		{
 
-			var sampleObjects = GetSampleObjects();
-			var benchmarkObjects = GetSerializerBenchmarks(sampleObjects);
+			List<object> sampleObjects = GetSampleObjects();
+			List<Benchmarking> benchmarkObjects = GetSerializerBenchmarks(sampleObjects);
 
 			foreach (Benchmarking b in benchmarkObjects)
 			{
-				var summary = BenchmarkRunner.Run(b.GenericType);
-				Console.WriteLine(summary.TotalTime.TotalSeconds.ToString("0.000"));
+				b.Setup();
+				var start = DateTime.Now;
+				b.Serialize();
+				var elapsed = DateTime.Now.Subtract(start);
+				Console.WriteLine($"Serialize {b.GenericType,-80}\t: {elapsed.TotalSeconds:0.000} sec.");
+				start = DateTime.Now;
+				b.Deserialize();
+				elapsed = DateTime.Now.Subtract(start);
+				Console.WriteLine($"Deserialize {b.GenericType,-80}\t: {elapsed.TotalSeconds:0.000} sec.");
 			}
 
 			Console.WriteLine("Benchmarking finished.");
