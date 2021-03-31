@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "J.Shared", "J.Shared\J.Shared.csproj", "{AC8A1348-3B63-4A56-A8A8-CB5F5DA2AD3F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "J.Newtonsoft", "J.Newtonsoft\J.Newtonsoft.csproj", "{A2C1AC65-3E4D-4D20-947E-398F479B773A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "J.SystemText", "J.SystemText\J.SystemText.csproj", "{B4420113-D190-4178-8BE7-DB7F19FFD8B6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "J.Utf8", "J.Utf8\J.Utf8.csproj", "{3F81C9DF-03C3-4FDB-8DC3-FBD7C8C5E9B3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "J.ConsoleApp", "J.ConsoleApp\J.ConsoleApp.csproj", "{47327C88-266D-4CC5-9C94-5618D6C3A692}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JSON Serializers", "JSON Serializers", "{A42FA84A-9D91-4065-8587-62410E1F8D8D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC8A1348-3B63-4A56-A8A8-CB5F5DA2AD3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC8A1348-3B63-4A56-A8A8-CB5F5DA2AD3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC8A1348-3B63-4A56-A8A8-CB5F5DA2AD3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC8A1348-3B63-4A56-A8A8-CB5F5DA2AD3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2C1AC65-3E4D-4D20-947E-398F479B773A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2C1AC65-3E4D-4D20-947E-398F479B773A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2C1AC65-3E4D-4D20-947E-398F479B773A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2C1AC65-3E4D-4D20-947E-398F479B773A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4420113-D190-4178-8BE7-DB7F19FFD8B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4420113-D190-4178-8BE7-DB7F19FFD8B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4420113-D190-4178-8BE7-DB7F19FFD8B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4420113-D190-4178-8BE7-DB7F19FFD8B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F81C9DF-03C3-4FDB-8DC3-FBD7C8C5E9B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F81C9DF-03C3-4FDB-8DC3-FBD7C8C5E9B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F81C9DF-03C3-4FDB-8DC3-FBD7C8C5E9B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F81C9DF-03C3-4FDB-8DC3-FBD7C8C5E9B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47327C88-266D-4CC5-9C94-5618D6C3A692}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47327C88-266D-4CC5-9C94-5618D6C3A692}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47327C88-266D-4CC5-9C94-5618D6C3A692}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47327C88-266D-4CC5-9C94-5618D6C3A692}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A2C1AC65-3E4D-4D20-947E-398F479B773A} = {A42FA84A-9D91-4065-8587-62410E1F8D8D}
+		{B4420113-D190-4178-8BE7-DB7F19FFD8B6} = {A42FA84A-9D91-4065-8587-62410E1F8D8D}
+		{3F81C9DF-03C3-4FDB-8DC3-FBD7C8C5E9B3} = {A42FA84A-9D91-4065-8587-62410E1F8D8D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DCC1245D-317B-4417-B5AF-EE47B08A7107}
+	EndGlobalSection
+EndGlobal

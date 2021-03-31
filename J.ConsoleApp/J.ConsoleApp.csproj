@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BenchmarkDotNet" Version="0.12.1" />
+    <PackageReference Include="BenchmarkDotNet.Annotations" Version="0.12.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\J.Newtonsoft\J.Newtonsoft.csproj" />
+    <ProjectReference Include="..\J.Shared\J.Shared.csproj" />
+    <ProjectReference Include="..\J.SystemText\J.SystemText.csproj" />
+    <ProjectReference Include="..\J.Utf8\J.Utf8.csproj" />
+  </ItemGroup>
+
+</Project>
